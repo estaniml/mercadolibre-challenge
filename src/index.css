@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --animate-delay: 2s;
+
+}
+
+body{
+    font-family: 'Proxima Nova';
+}
+li {
+    cursor: pointer;
+}
+.hove > li {
+    padding: 10px 0 10px 20px;
+}
+
+.hove > li:hover{
+    background-color: #3b82f6;
+}
+.darkhover > li{
+    transition: 0.1s ease-in-out;
+}
+.darkhover > li:hover{
+    color: #000;
+}
+.lochover:hover{
+    outline: 0.1px solid #bdbdbd;
+    cursor: pointer;
+}
+.half-star{
+    background: -webkit-linear-gradient(#3b82f6, #bdbdbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.w-31{
+    min-width: 31%;
+}
+.w-20{
+    min-width: 18.7%;
+}
+
+.denHover {
+    display: inline;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgb(59 130 246);
+    align-self: center;
+    margin-left: 2px;
+}
+
+footer {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.logo {
+    background: -webkit-linear-gradient(#e6d8d6, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
