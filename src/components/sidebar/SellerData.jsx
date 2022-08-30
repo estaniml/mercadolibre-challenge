@@ -37,7 +37,7 @@ const SellerData = () => {
         </div>
 
         <div className='mt-6'>
-            <a href='https://www.mercadolibre.com.ar/perfil/EJUMP' className='text-sm text-blue-500'>Ver más datos de este vendedor</a>
+            <a href='#' className='text-sm text-blue-500'>Ver más datos de este vendedor</a>
         </div>
     </div>
   )

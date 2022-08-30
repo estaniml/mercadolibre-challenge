@@ -19,6 +19,14 @@ const Navbar = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+
+        Swal.fire({
+            title: 'Challenge de Mercado Libre',
+            text: 'Esta pagina es simplemente un clon desarrollado para el challenge',
+            footer: '<a target="_blank" href="https://github.com/goncy/mercadolibre-details-challenge">Detalle del Challenge</a>'
+          })
+
+
     }
     
   return (
@@ -33,9 +41,9 @@ const Navbar = () => {
             </div>
             <form onSubmit={handleSubmit} className='col-span-7 w-full h-full relative flex items-center '>
                 <input 
-                    className='dark:bg-gray-800 max-h-9 w-full px-4 py-2 shadow-sm rounded-sm text-md md:text-md focus:outline-none dark:placeholder:text-bg-gray-800 placeholder:font-light placeholder:text-gray-300'
+                    className='dark:bg-gray-800 max-h-9 w-full px-4 py-2 shadow-sm rounded-sm text-md md:text-md focus:outline-none dark:placeholder:text-bg-gray-800 placeholder:font-light placeholder:text-gray-600'
                     type='text'
-                    placeholder='Buscar productos, marcas y más...'
+                    placeholder='ESTA NO ES LA PAGINA REAL DE MERCADO LIBRE. ES UNA COPIA PARA EL CHALLENGE' 
                 />
                 <IoIosSearch className='w-10 absolute right-0 md:border-l top-1 md:top-2 text-2xl text-gray-400 cursor-pointer' />
             </form>
@@ -43,7 +51,8 @@ const Navbar = () => {
                 <a 
                     target='_blank'
                     className='h-full' 
-                    href='https://www.mercadolibre.com.ar/suscripciones/nivel-6#origin=banner-menu&me.position=0&me.bu_line=36&me.flow=-1&me.bu=9&me.audience=all&me.content_id=bannermenu_n6_generico&me.component_id=banner_menu_web_ml&me.logic=campaigns'>
+                    onClick={showAlert}
+                    href='/'>
                     <img 
                         className='h-full'
                         src='https://http2.mlstatic.com/D_NQ_887100-MLA50801817839_072022-OO.webp' alt='logo' />

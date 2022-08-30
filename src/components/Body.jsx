@@ -1,16 +1,30 @@
-import { useState } from 'react'
 import { BsChevronRight } from 'react-icons/bs'
+import { ImWarning } from 'react-icons/im'
+import Swal from 'sweetalert2'
 import AdSlider from './main/AdSlider'
 import Product from './Product'
 
 const Body = () => {
 
+  const showAlert = () => {
+    Swal.fire({
+      title: 'Challenge de Mercado Libre',
+      text: 'Esta pagina es simplemente un clon desarrollado para el challenge',
+      footer: '<a target="_blank" href="https://github.com/goncy/mercadolibre-details-challenge">Detalle del Challenge</a>'
+    })
+}
+
 
   return (
     <div>
+        <div className='bg-indigo-600 text-white rounded-lg flex justify-center items-center
+        h-10 w-2/4 mx-auto p-10 my-4 gap-4'>
+          <ImWarning className='text-2xl' />
+          <a target='_blank' href='https://github.com/goncy/mercadolibre-details-challenge' className='py-2'>Ésta no es la página real de mercado libre. Es un clon realizado para un challenge.</a>
+        </div>
         <div className='py-5 text-sm flex gap-1 items-center'>
         <p className='font-medium'>Tambien puede interesarte:</p> 
-        <a href='https://listado.mercadolibre.com.ar/squishmallows#topkeyword' className='cursor-pointer'>squishmallows</a>
+        <a href='#' onClick={showAlert} className='cursor-pointer'>squishmallows</a>
       </div>
       <div className='flex justify-between text-sm pb-5 text-blue-500'>
         <div className='flex'>

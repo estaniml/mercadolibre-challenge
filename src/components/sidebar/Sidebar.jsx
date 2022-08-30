@@ -33,7 +33,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <a href='https://articulo.mercadolibre.com.ar/MLA-900849903-muneco-stitch-peluche-liloystitch-de-cabezon-celeste-y-rosa-_JM#reviews-summary' className='flex items-center text-sm text-blue-500 gap-1 cursor-pointer'>
+      <a href='#' onClick={showAlert} className='flex items-center text-sm text-blue-500 gap-1 cursor-pointer'>
         <BsFillStarFill />
         <BsFillStarFill />
         <BsFillStarFill />
@@ -44,7 +44,7 @@ const Sidebar = () => {
 
       <div className='my-2 flex gap-2'>
         <p className='bg-[#ff7b3a] text-white text-xs font-bold self-center p-1 leading-3 rounded-sm'>MÁS VENDIDO</p>
-        <a href='https://www.mercadolibre.com.ar/mas-vendidos/MLA1166?attribute_id=BRAND&attribute_value_id=4961630#origin=vip' className='text-blue-500 text-xs'>1º en Peluches eJump</a>
+        <a href='#' onClick={showAlert} className='text-blue-500 text-xs'>1º en Peluches eJump</a>
       </div>
 
       <h1 className='text-4xl font-light'>$ 1.790</h1>

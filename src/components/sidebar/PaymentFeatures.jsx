@@ -6,7 +6,7 @@ const PaymentFeatures = () => {
         {/* DEVOLUCIONES */}
         <h3 className='text-lg my-2'>Devolución gratis</h3>
         <p className='font-light text-sm text-gray-500 dark:text-gray-300 my-6'>Tenés 30 días desde que recibís el producto para devolverlo. ¡No importa el motivo!</p>
-        <a href='https://articulo.mercadolibre.com.ar/noindex/freeReturn/fashion?itemId=MLA900849903&quantity=1&new_version=true&modal=false' className='text-sm text-blue-500'>Conocer más sobre devoluciones</a>
+        <a href='#' className='text-sm text-blue-500'>Conocer más sobre devoluciones</a>
         
         <hr  className='my-6 dark:border-gray-900'/>
 
@@ -19,7 +19,7 @@ const PaymentFeatures = () => {
         <h4 className='text-md mt-6'>Garantía del vendedor</h4>
         <p className='font-light text-sm text-gray-500 dark:text-gray-300 mt-4 mb-6'>Garantía del vendedor: 1 meses</p>
 
-        <a href='https://articulo.mercadolibre.com.ar/noindex/freeReturn/fashion?itemId=MLA900849903&quantity=1&new_version=true&modal=false' className='text-sm text-blue-500'>Conocer más sobre devoluciones</a>
+        <a href='#' className='text-sm text-blue-500'>Conocer más sobre devoluciones</a>
         
         <hr  className='my-6 dark:border-gray-900'/>
 
@@ -54,7 +54,7 @@ const PaymentFeatures = () => {
         </div>
 
         <div className='mt-6'>
-            <a href='https://articulo.mercadolibre.com.ar/noindex/services/MLA900849903/payments?new_version=true&modal=false&newIndex=true' className='text-sm text-blue-500'>Conocé otros medios de pago</a>
+            <a href='#' className='text-sm text-blue-500'>Conocé otros medios de pago</a>
         </div>
     </div>
   )

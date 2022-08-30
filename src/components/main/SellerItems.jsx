@@ -10,7 +10,7 @@ const SellerItems = () => {
             <Slider />
             
         </div>
-        <a target='_blank' href='https://listado.mercadolibre.com.ar/_CustId_226290662?item_id=MLA900849903&category_id=MLA1166&seller_id=226290662&client=recoview-selleritems&recos_listing=true' className='ml-3 mb-20 text-sm text-blue-500'>Ver más publicaciones del vendedor</a>
+        <a target='_blank' href='#' className='ml-3 mb-20 text-sm text-blue-500'>Ver más publicaciones del vendedor</a>
     </div>
   )
 }
